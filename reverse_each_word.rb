@@ -11,9 +11,9 @@ def reverse_each_word(str)
   reversedUsingCollect = []
   
   arrStr.Collect do |string|
-    reversed << string.reverse
+    reversedUsingCollect << string.reverse
   end
    
-  reversed.join(" ")
+  reversedUsingCollect.join(" ")
 end
 
