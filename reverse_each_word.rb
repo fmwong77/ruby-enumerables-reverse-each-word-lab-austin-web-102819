@@ -1,5 +1,5 @@
 def reverse_each_word(str)
-  str = string.split("")
+  splitStr = str.split("")
   reversed = []
   
   str.size.times {reversed << str.pop}
