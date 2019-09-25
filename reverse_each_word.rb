@@ -10,7 +10,7 @@ def reverse_each_word(str)
   
   reversedUsingCollect = []
   
-  arrStr.Collect do |string|
+  arrStr.collect do |string|
     reversedUsingCollect << string.reverse
   end
    
