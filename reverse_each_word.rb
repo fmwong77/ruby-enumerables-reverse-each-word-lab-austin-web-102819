@@ -1,7 +1,7 @@
 def reverse_each_word(str)
-  splitStr = str.split("")
+  arrStr = %w(str)
   reversed = []
-  puts splitStr
+  puts arrStr
   str.size.times {reversed << splitStr.pop}
   reversed.join
 end
