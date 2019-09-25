@@ -8,11 +8,9 @@ def reverse_each_word(str)
    
   reversed.join(" ")
   
+  reversedUsingCollect = []
   
-  arrStr = str.split(" ")
-  reversed = []
-  
-  arrStr.each do |string|
+  arrStr.Collect do |string|
     reversed << string.reverse
   end
    
