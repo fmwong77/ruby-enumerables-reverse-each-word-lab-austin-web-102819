@@ -4,3 +4,8 @@ def reverse_each_word(str)
   arr.each{|a| new.pop(a)}
   new.join
 end
+
+
+p arr
+
+reverse_each_word("Hello, how are you?")
