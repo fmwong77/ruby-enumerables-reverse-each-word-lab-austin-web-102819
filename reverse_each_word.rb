@@ -7,5 +7,15 @@ def reverse_each_word(str)
   end
    
   reversed.join(" ")
+  
+  
+  arrStr = str.split(" ")
+  reversed = []
+  
+  arrStr.each do |string|
+    reversed << string.reverse
+  end
+   
+  reversed.join(" ")
 end
 
